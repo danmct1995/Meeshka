@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+.logo {
+  padding: 2% 0% 0% 5%;
+  width: 10%;
+  margin-bottom: -3.5%;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.top li {
+  float: right;
+}
+.top a {
+  padding: 8px;
+  display: block;
+}
+.top li a {
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  color: #773dbd;
+  font-weight: 600;
+  font-size: 1.5vw;
+  font-family: "roboto";
+}
+.top ul li a:hover {
+  color: black;
+  transition: color 0.5s;
+  background-color: rgba(253, 215, 86, 0.3)
+}
+.Top-banner {
+  max-width: 100%;
+  width: 100%;
+}
+h1 {
+  font-size: 4vw;
+  color: #773dbd;
+  font-family: 'Varela Round', 'Roboto';
+  margin: 10% 7.5% 1% 7.5%;
+  font-weight: 700;
+}
+.top-half > p {
+  margin: 0% 7.5% 0% 7.5%;
+  font-size: 1.6vw;
+  font-family: 'roboto';
+  line-height: 1.6;
+}
+.image2 {
+  height: auto;
+  width: 42.5%;
+  float: left;
+  margin: 0% 2% 3% 7.5%;
+}
+h2 {
+  font-size: 4vw;
+  color: #773dbd;
+  font-family: 'Varela Round', 'Roboto';
+  margin: 12.5% 7.5% 3% 7.5%;
+  clear: both;
+}
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 1%;
+  width: 85%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.6vw;
+  transition: 0.4s;
+  margin: 0% 7.5% 0% 7.5%;
+  font-weight: 700;
+  max-width: 100%;
+  font-family: 'roboto';
+}
+.accordion-odd {
+  background-color: rgba(253, 215, 86, 0.3);
+  color: #444;
+  cursor: pointer;
+  padding: 1%;
+  width: 85%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.6vw;
+  transition: 0.4s;
+  margin: 0% 0% 0% 7.5%;
+  font-weight: 700;
+  max-width: 100%;
+  font-family: 'roboto';
+}
+
+.active,
+.accordion:hover {
+  background-color: rgba(253, 215, 86, 0.7);
+}
+.active,
+.accordion-odd:hover {
+  background-color: rgba(253, 215, 86);
+}
+.accordion:after {
+  content: "\0002B"; /* Unicode character for "plus" sign (+) */
+  font-size: 2vw;
+  color: #777;
+  float: right;
+  margin-right: 0.5%;
+}
+.accordion-odd:after {
+  content: "\0002B"; /* Unicode character for "plus" sign (+) */
+  font-size: 2vw;
+  color: black;
+  float: right;
+  margin-right: 0.5%;
+}
+.panel {
+  padding: 0 2%;
+  background-color: whitesmoke;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin: 0% 7.5% 0% 7.5%;
+  font-size: 1.6vw;
+  font-weight: 500;
+    font-family: 'roboto';
+}
+.panel p{
+  margin: 2% 1% 2% 1%;
+}
+footer {
+  clear: both;
+  background-color: #fdd756;
+  text-align: center;
+  padding: 4% 0% 3% 0%;
+  margin-top: 7%;
+}
+footer p {
+  font-size: 1.6vw;
+  margin-top: 3%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'roboto';
+}
+footer > ul {
+  display: center;
+}
+footer > ul li {
+  list-style: none;
+  display: inline;
+}
+footer > ul li a {
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  font-size: 3vw;
+  margin: 0% 3%;
+  overflow: hidden;
+  text-decoration: none;
+}
+footer > ul li a .fab {
+  color: white;
+}
+footer > ul li a .fas {
+  color: white;
+}
+footer > ul li a:hover .fab {
+  color: #773dbd;
+  transition: 0.5s;
+}
+footer > ul li a:hover .fas {
+  color: #773dbd;
+  transition: 0.5s;
+}
