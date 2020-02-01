@@ -122,6 +122,9 @@ footer > ul li a:hover .fas {
   font-family: "roboto";
   line-height: 1.6;
 }
+.pdf {
+  margin: 2% 0% 0% 0%;
+}
 .pdf > a {
   text-decoration: none;
   color: #773dbd;
@@ -136,7 +139,7 @@ footer > ul li a:hover .fas {
   color: rgba(119,61,189, 0.5);
 }
 .registration {
-  margin: 0% 0% 11% 0%
+  margin: 0% 0% 8% 0%
 } 
 h3 {
     font-size: 4vw;
