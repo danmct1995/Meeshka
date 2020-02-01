@@ -132,11 +132,11 @@ footer > ul li a:hover .fas {
   line-height: 2;
 }
 .pdf > a:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   color: rgba(119,61,189, 0.5);
 }
 .registration {
-  margin: 0% 0% 8% 0%
+  margin: 0% 0% 11% 0%
 } 
 h3 {
     font-size: 4vw;
