@@ -181,3 +181,16 @@ footer > ul li a:hover .fas {
   color: #773dbd;
   transition: 0.5s;
 }
+.pdf > a {
+  text-decoration: none;
+  color: #773dbd;
+  margin: 0% 0% 0% 7.5%;
+  position: relative;
+  font-family: 'roboto';
+  font-size: 2vw;
+  line-height: 2;
+}
+.pdf > a:hover {
+  transition: 0.3s;
+  color: rgba(119,61,189, 0.5);
+}
