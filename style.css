@@ -118,8 +118,8 @@ footer > ul li a:hover .fas {
   color: #773dbd;
   transition: 0.5s;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 200px) and (max-device-width : 580px) {
   p {
-    font-size: 0.7vw; 
+    font-size: 12px; 
   }
 }
