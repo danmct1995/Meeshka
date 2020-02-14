@@ -53,10 +53,10 @@
 <form action= "mailto: meeshka.art@gmail.com?subject=MFASP Registration" method="post" enctype="text/plain">
   <h1> Sign-up Today! </h1> <div class="Individual-boxes"> 
  <b> Child #1 Full Name: <br>
-<input type="text" name="Child#1_name"> <br>
+<input type="text" name="Child#1_name" required> <br>
    </div> <div class="Individual-boxes"> 
     Child #1 Date of Birth <br>
-   <input type="date" name="Child#1_dob">  <br>
+   <input type="date" name="Child#1_dob" required>  <br>
      </div> <div class="Individual-boxes"> 
 Child #2 Full Name: <br>
 <input type="text" name="Child#2_name"><br>
@@ -65,10 +65,10 @@ Child #2 Full Name: <br>
 <input type="date" name="Child#2_dob"><br>
         </div>  <div class="Individual-boxes"> 
   Parent/Guardian #1: <br>
-<input type="text" name="Parent#1_name"><br>
+<input type="text" name="Parent#1_name" required><br>
         </div>    <div class="Individual-boxes"> 
   Parent/Guardian #1 Phone Number: <br>
-<input type="text" name="Parent#1_phone"><br>
+<input type="text" name="Parent#1_phone" required><br>
          </div>     <div class="Individual-boxes"> 
   Parent/Guardian #2: <br>
 <input type="text" name="Parent#2_name"><br>
@@ -77,7 +77,7 @@ Child #2 Full Name: <br>
 <input type="text" name="Parent#2_phone"><br>
             </div>      <div class="Individual-boxes"> 
   Home Address: <br>
-<input type="text" name="Home_Address"><br>
+<input type="text" name="Home_Address" required><br>
              </div>       <div class="Individual-boxes"> 
   Primary Contact Email: <br>
 <input type="text" name="Contact_Email"><br>
@@ -108,7 +108,7 @@ Child #2 Full Name: <br>
   <b> <div class="Individual-boxes">  List the names & phone numbers of 3 people, other than parents/guardians who are allowed to pick up your child: <br> <br>  </div>
    <div class="Individual-boxes">  First contact: <br> <input type="text" name="Contact#1"><br>  
 
-  </div> <div class="Individual-boxes">   First contacts phone number:  <br> <input type="text" name="Contact#1_phone"><br> 
+  </div> <div class="Individual-boxes" required>   First contacts phone number:  <br> <input type="text" name="Contact#1_phone"><br> 
    </div> <div class="Individual-boxes">   Second contact: <br>
   <input type="text" name="Contact#2"><br>
    </div> <div class="Individual-boxes">  Second contacts phone number: <br>
