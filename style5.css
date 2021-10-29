@@ -87,7 +87,7 @@ form {
   width: 80%;
 }
 .survey {
-    font-family: 'roboto';
+    font-family: 'Varela Round';
   font-size: 1.2vw;
 }
 input[type=text] {
@@ -170,9 +170,18 @@ input[type=reset]:hover {
   text-decoration: none;
 }
 .venmo_image {
-  max-width: 10%;
+  max-width: 15%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.instruction p {
+  text-align: center;
+  font-size: 1vw;
+  font-family: 'roboto';
+  margin: 0vw 0vw 2vw 0vw;
+}
+.instruction {
+  margin-top: 100px;
 }
